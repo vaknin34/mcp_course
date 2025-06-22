@@ -1,0 +1,27 @@
+# .pre-commit-config.yaml  ── local-only version
+repos:
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff (lint + autofix)
+        entry: ruff
+        language: system          # use whatever is on PATH (the Poetry venv via direnv)
+        types: [python]
+        stages: [pre-commit]
+        args: [--fix]             # safe, non-breaking fixes
+      - id: ruff-format
+        name: ruff-format (black-style formatter)
+        entry: ruff format
+        language: system
+        types: [python]
+        stages: [pre-commit]
+
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy (type checking)
+        entry: mypy
+        language: system
+        types: [python]
+        stages: [pre-commit]
+        pass_filenames: false     # mypy works project-wide; skip file list
