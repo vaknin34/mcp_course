@@ -1,0 +1,4 @@
+Starship: The minimal, fast, and customizable prompt for any shell - https://starship.rs/ - Sentiment: positive
+Switching Pip to Uv in a Dockerized Flask / Django App - https://nickjanetakis.com/blog/switching-pip-to-uv-in-a-dockerized-flask-or-django-app - Sentiment: neutral
+Circular Microcomputers embedded and powered by repurposed smartphone components - https://citronics.eu/ - Sentiment: neutral
+Timdle – Place historical events in chronological order - https://www.timdle.com/ - Sentiment: neutral

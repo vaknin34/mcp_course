@@ -1,0 +1,7 @@
+{
+    "servers": {
+        "my-mcp-server-370f4c06": {
+            "url": "https://vaknin34-unit2-sentiment-analysis-mcp.hf.space/gradio_api/mcp/sse"
+        }
+    }
+}
