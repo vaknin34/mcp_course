@@ -1,0 +1,3 @@
+[submodule "src/unit2/mcp_client"]
+	path = src/unit2/mcp_client
+	url = hf.co:spaces/vaknin34/mcp-client
