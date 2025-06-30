@@ -2,6 +2,13 @@
     "servers": {
         "my-mcp-server-370f4c06": {
             "url": "https://vaknin34-unit2-sentiment-analysis-mcp.hf.space/gradio_api/mcp/sse"
+        },
+        "my-mcp-server-dd5d765f": {
+            "type": "stdio",
+            "command": "/Users/nivvaknin/Desktop/mcp_course/.venv/bin/python",
+            "args": [
+                "src/unit3/server.py"
+            ]
         }
     }
 }
